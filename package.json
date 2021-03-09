@@ -1,0 +1,23 @@
+{
+  "name": "CypressCarShare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamUnder/CypressCarShare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamUnder/CypressCarShare/issues"
+  },
+  "homepage": "https://github.com/IamUnder/CypressCarShare#readme",
+  "devDependencies": {
+    "cypress": "^6.6.0"
+  }
+}

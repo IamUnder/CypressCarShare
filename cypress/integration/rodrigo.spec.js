@@ -33,13 +33,12 @@ describe("Cambiar de rueda seleccionando valores distintos", () => {
 
         // Pulsa el botón Cambiar horario
         cy.get("button[cy-id='cambiar-horario']").click();
-        
         // Pulsa el botón Continuar
         cy.get("a[cy-id='continuar-unirse']").click();
         
     });
     it("Selecciona su horario", () => {
-        cy.wait(500);
+        cy.wait(1500);
         const ids = [1,4,7,11,15,18,19,22,25,27,30];
         // Selecciona celdas y opciones 
         ids.forEach((id,index) => {
